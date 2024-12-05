@@ -1,0 +1,24 @@
+@import "./_variables.scss";
+@import "./_utilities.scss";
+@import "./_loaders.scss";
+@import "./pages/Cars.scss";
+
+body {
+  overscroll-behavior: none;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bs-page);
+  transition: background-color 0.5s ease;
+}
+
+main {
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+}
